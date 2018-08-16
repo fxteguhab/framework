@@ -940,21 +940,23 @@ public class OdooWrapper<T> implements Response.Listener<JSONObject> {
 
     private OUser parseUserObject(OUser user, OdooResult result) {
         // Odoo 10.0+ returns array of object in read method
-        if (result.containsKey("result") && result.get("result") instanceof ArrayList) {
-            List<LinkedTreeMap> items = (List<LinkedTreeMap>) result.get("result");
-            result = new OdooResult();
-            result.putAll(items.get(0));
-        }
-        user.setName(result.getString("name"));
-        user.setAvatar(result.getString("image_medium"));
-        user.setTimezone(result.getString("tz"));
-        Double partner_id = (Double) result.getArray("partner_id").get(0);
-        Double company_id = (Double) result.getArray("company_id").get(0);
-        user.setPartnerId(partner_id.intValue());
-        user.setCompanyId(company_id.intValue());
-        if (mVersion.getVersionNumber() == 7) {
-            //FIX: Odoo 7 Not returning company id with user login details
-            odooSession.setCompanyId(company_id.intValue());
+        if (result != null) {
+            if (result.containsKey("result") && result.get("result") instanceof ArrayList) {
+                List<LinkedTreeMap> items = (List<LinkedTreeMap>) result.get("result");
+                result = new OdooResult();
+                result.putAll(items.get(0));
+            }
+            user.setName(result.getString("name"));
+            user.setAvatar(result.getString("image_medium"));
+            user.setTimezone(result.getString("tz"));
+            Double partner_id = (Double) result.getArray("partner_id").get(0);
+            Double company_id = (Double) result.getArray("company_id").get(0);
+            user.setPartnerId(partner_id.intValue());
+            user.setCompanyId(company_id.intValue());
+            if (mVersion.getVersionNumber() == 7) {
+                //FIX: Odoo 7 Not returning company id with user login details
+                odooSession.setCompanyId(company_id.intValue());
+            }
         }
         return user;
     }

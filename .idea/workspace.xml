@@ -6,42 +6,102 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c595e6b7-3be3-4844-9ad5-7da3546ae950" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_2_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_25_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_25_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_10_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_10_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_10_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_iid_10_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_10_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_http_legacy_android_25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/odoo_framework.iml" />
+    <list default="true" id="a0a059c5-2350-4790-873b-3dda14f428ae" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/Products.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/providers/ProductsSyncProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/services/ProductSyncService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/odoo/base/addons/res/ProductTemplate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/xml/product_sync_adapter.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/odoo_mobile.iml" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_intro-slider-lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_intro-slider-lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_intro-slider-lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_intro-slider-lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_intro-slider-lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_intro-slider-lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_2_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_25_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_0_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_10_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_10_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/odoo/config/Addons.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/odoo/config/Addons.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/helper/OdooVersion.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/helper/OdooVersion.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/odoo/core/utils/BitmapUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/odoo/core/utils/BitmapUtils.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/base-strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/base-strings.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/wrapper/OdooWrapper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/wrapper/OdooWrapper.java" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/generated/source/buildConfig/debug/com/odoo/widgets/slider/BuildConfig.java" afterPath="$PROJECT_DIR$/intro-slider-lib/build/generated/source/buildConfig/debug/com/odoo/widgets/slider/BuildConfig.java" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/generated/source/buildConfig/release/com/odoo/widgets/slider/BuildConfig.java" afterPath="$PROJECT_DIR$/intro-slider-lib/build/generated/source/buildConfig/release/com/odoo/widgets/slider/BuildConfig.java" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/multi/values-v11.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/multi/values-v14.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/multi/values.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/single/drawable-nodpi-v4.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/single/drawable-nodpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/debug/single/layout.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/multi/values-v11.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/multi/values-v11.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/multi/values-v14.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/multi/values-v14.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/multi/values.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/multi/values.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/single/drawable-nodpi-v4.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/single/drawable-nodpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/single/drawable.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/single/drawable.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/single/layout.json" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/blame/res/release/single/layout.json" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/bundles/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/bundles/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/bundles/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/bundles/release/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/bundles/release/res/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/bundles/release/res/values-v11/values-v11.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/bundles/release/res/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/bundles/release/res/values-v14/values-v14.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/bundles/release/res/values/values.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/bundles/release/res/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aapt/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/media/MediaMetadataCompat.aidl" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/media/MediaMetadataCompat.aidl" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/media/RatingCompat.aidl" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/media/RatingCompat.aidl" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/media/session/MediaSessionCompat.aidl" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/media/session/MediaSessionCompat.aidl" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/media/session/ParcelableVolumeInfo.aidl" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/media/session/ParcelableVolumeInfo.aidl" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/media/session/PlaybackStateCompat.aidl" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/media/session/PlaybackStateCompat.aidl" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/os/ResultReceiver.aidl" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/aidl/android/support/v4/os/ResultReceiver.aidl" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v11/values-v11.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v14/values-v14.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/mergeReleaseShaders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v11/values-v11.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v14/values-v14.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/incremental/packageReleaseResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/manifests/aapt/release/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/debug/values-v11/values-v11.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/debug/values-v14/values-v14.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/debug/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/release/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/release/values-v11/values-v11.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/release/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/release/values-v14/values-v14.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/release/values/values.xml" afterPath="$PROJECT_DIR$/intro-slider-lib/build/intermediates/res/merged/release/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/build/outputs/aar/intro-slider-lib-release.aar" afterPath="$PROJECT_DIR$/intro-slider-lib/build/outputs/aar/intro-slider-lib-release.aar" />
+      <change beforePath="$PROJECT_DIR$/intro-slider-lib/intro-slider-lib.iml" afterPath="$PROJECT_DIR$/intro-slider-lib/intro-slider-lib.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,122 +117,139 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base_preference.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/base_preference.xml">
+      <file leaf-file-name="Products.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/Products.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="59" />
+            <state relative-caret-position="187">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="e#3584#3585#0" expanded="true" />
+                <element signature="e#3630#3631#0" expanded="true" />
+                <element signature="e#4230#4231#0" expanded="true" />
+                <element signature="e#4274#4275#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductSyncService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/services/ProductSyncService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductsSyncProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/providers/ProductsSyncProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/base/addons/res/ProductTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_sync_adapter.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/product_sync_adapter.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base-strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/base-strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="83" column="47" lean-forward="false" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_customer_detail.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_customer_detail.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu_partners.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_partners.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_drawer.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/base_drawer.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_drawer_account_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/base_drawer_account_item.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_drawer_group_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/base_drawer_group_layout.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_drawer_menu_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/base_drawer_menu_item.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerDetails.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/customers/CustomerDetails.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="229" column="42" lean-forward="true" selection-start-line="229" selection-start-column="42" selection-end-line="229" selection-end-column="42" />
+            <state relative-caret-position="707">
+              <caret line="117" column="59" lean-forward="false" selection-start-line="117" selection-start-column="59" selection-end-line="117" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OdooVersion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/helper/OdooVersion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="71" column="50" lean-forward="false" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+              <folding>
+                <element signature="e#4231#4232#0" expanded="true" />
+                <element signature="e#4268#4269#0" expanded="true" />
+                <element signature="e#4328#4329#0" expanded="true" />
+                <element signature="e#4380#4381#0" expanded="true" />
+                <element signature="e#4418#4419#0" expanded="true" />
+                <element signature="e#4452#4453#0" expanded="true" />
+                <element signature="e#4506#4507#0" expanded="true" />
+                <element signature="e#4552#4553#0" expanded="true" />
+                <element signature="e#4592#4593#0" expanded="true" />
+                <element signature="e#4628#4629#0" expanded="true" />
+                <element signature="e#4686#4687#0" expanded="true" />
+                <element signature="e#4736#4737#0" expanded="true" />
+                <element signature="e#4774#4775#0" expanded="true" />
+                <element signature="e#4808#4809#0" expanded="true" />
+                <element signature="e#4862#4863#0" expanded="true" />
+                <element signature="e#4908#4909#0" expanded="true" />
+                <element signature="e#4945#4946#0" expanded="true" />
+                <element signature="e#4981#4982#0" expanded="true" />
+                <element signature="e#5036#5037#0" expanded="true" />
+                <element signature="e#5086#5087#0" expanded="true" />
+                <element signature="e#5127#5128#0" expanded="true" />
+                <element signature="e#5167#5168#0" expanded="true" />
+                <element signature="e#5326#5327#0" expanded="true" />
+                <element signature="e#5361#5362#0" expanded="true" />
+                <element signature="e#5414#5415#0" expanded="true" />
+                <element signature="e#5455#5456#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OSyncAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/core/service/OSyncAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="296" column="0" lean-forward="false" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OdooWrapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OdooWrapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/wrapper/OdooWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="412" column="0" lean-forward="false" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
+            <state relative-caret-position="265">
+              <caret line="947" column="13" lean-forward="false" selection-start-line="947" selection-start-column="13" selection-end-line="947" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/customers/Customers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="29" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -180,24 +257,24 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>login</find>
-      <find>odoologin</find>
-      <find>getwidth</find>
-      <find>sym</find>
-      <find>sym_def_a</find>
-      <find>sync</find>
-      <find>authority</find>
-      <find>projectsync</find>
-      <find>sym_def_app_icon</find>
-      <find>get</find>
-      <find>label_no_customer_found</find>
-      <find>baseurl</find>
-      <find>sync data li</find>
-      <find>base</find>
-      <find>syncDataLimitValues</find>
-      <find>supplier</find>
+      <find>utho</find>
+      <find>odoonews</find>
+      <find>basefragmen</find>
+      <find>uthori</find>
+      <find>respart</find>
+      <find>conta</find>
+      <find>loader</find>
+      <find>getload</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,7 +296,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="odoo_framework" />
+              <option name="name" value="odoo_mobile" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -234,7 +311,7 @@
                 <option name="path" value="$PROJECT_DIR$/intro-slider-lib" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="odoo_framework" />
+                <option name="name" value="odoo_mobile" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -248,7 +325,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'odoo_framework'." />
+                <option name="description" value="Displays the sub-projects of root project 'odoo_mobile'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -343,7 +420,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'odoo_framework'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'odoo_mobile'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -619,7 +696,7 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'odoo_framework'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'odoo_mobile'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -695,6 +772,11 @@
                 <option name="name" value="generateDebugBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare odoo_mobile:intro-slider-lib:unspecified" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareOdoo_mobileIntroSliderLibUnspecifiedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles all Release builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleRelease" />
@@ -735,12 +817,12 @@
                 <option name="name" value="bundleRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'odoo_framework'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'odoo_mobile'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'odoo_framework' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'odoo_mobile' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -762,7 +844,7 @@
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'odoo_framework'." />
+                <option name="description" value="Displays all dependencies declared in root project 'odoo_mobile'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -846,7 +928,7 @@
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'odoo_framework'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'odoo_mobile'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -929,11 +1011,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="jarReleaseClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare odoo_framework:intro-slider-lib:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareOdoo_frameworkIntroSliderLibUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1058,7 +1135,7 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'odoo_framework'." />
+                <option name="description" value="Displays the properties of root project 'odoo_mobile'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -1531,11 +1608,6 @@
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare odoo_framework:intro-slider-lib:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareOdoo_frameworkIntroSliderLibUnspecifiedLibrary" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareReleaseUnitTestDependencies" />
               </ExternalTaskPojo>
@@ -1760,6 +1832,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="generateDebugBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare odoo_mobile:intro-slider-lib:unspecified" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareOdoo_mobileIntroSliderLibUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
@@ -2985,9 +3062,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/odoo/core/utils/BitmapUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/odoo/config/Addons.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/odoo/base/addons/res/ResPartner.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/odoo/base/addons/res/ProductTemplate.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/services/ProductSyncService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/odoo/addons/customers/providers/CustomersSyncProvider.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/providers/ProductsSyncProvider.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/product_sync_adapter.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/helper/OdooVersion.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/base-strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/wrapper/OdooWrapper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/Products.java" />
       </list>
     </option>
   </component>
@@ -2996,6 +3081,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
@@ -3012,64 +3100,112 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="odoo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
               <item name="customers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
-              <item name="customers" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
               <item name="providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
-              <item name="customers" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
@@ -3077,60 +3213,50 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
+              <item name="odoo_mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="xml" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="odoo_framework" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -3138,7 +3264,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1534423142546" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.2.3" />
     <property name="device.picker.selection" value="Galaxy_Nexus_API_27" />
   </component>
   <component name="RunDashboard">
@@ -3297,11 +3423,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c595e6b7-3be3-4844-9ad5-7da3546ae950" name="Default" comment="" />
-      <created>1534423127125</created>
+      <changelist id="a0a059c5-2350-4790-873b-3dda14f428ae" name="Default" comment="" />
+      <created>1534428240448</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534423127125</updated>
+      <updated>1534428240448</updated>
     </task>
     <servers />
   </component>
@@ -3314,17 +3440,17 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5021322" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3348,60 +3474,36 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/android_cover.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/manifest-merger-release-report.txt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/config/Addons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="365" column="60" lean-forward="true" selection-start-line="365" selection-start-column="60" selection-end-line="365" selection-end-column="60" />
+        <state relative-caret-position="136">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/core/service/OSyncService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/base/addons/res/ResUsers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/avatar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/App.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/base/addons/res/ResPartner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-905">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="1110">
+          <caret line="110" column="24" lean-forward="false" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/core/utils/BitmapUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/customers/services/CustomerSyncService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="117" column="76" lean-forward="true" selection-start-line="117" selection-start-column="76" selection-end-line="117" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/OdooActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="288" column="43" lean-forward="false" selection-start-line="288" selection-start-column="43" selection-end-line="288" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3412,21 +3514,19 @@
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1154#1155#0" expanded="false" />
-            <element signature="e#1197#1198#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/customers/Customers.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/core/support/addons/fragment/BaseFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="60" column="53" lean-forward="true" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/customers/services/CustomerSyncService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/base/addons/res/ResCompany.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
@@ -3434,171 +3534,219 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/Odoo.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_camera.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_company.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_customers.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_customers.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_customers.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_database.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_done.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_file_attachment.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_add.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_edit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_github.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_location.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_mobile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_more.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_phone.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_suppliers.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_universe.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_user.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/customer_sync_adapter.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/product_sync_adapter.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="117" column="59" lean-forward="false" selection-start-line="117" selection-start-column="59" selection-end-line="117" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/core/service/OSyncAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="125" column="30" lean-forward="false" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
+        <state relative-caret-position="189">
+          <caret line="296" column="0" lean-forward="false" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/helper/OdooVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="71" column="69" lean-forward="false" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+        <state relative-caret-position="189">
+          <caret line="71" column="50" lean-forward="false" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
           <folding>
-            <element signature="e#4209#4210#0" expanded="false" />
-            <element signature="e#4246#4247#0" expanded="false" />
-            <element signature="e#4306#4307#0" expanded="false" />
-            <element signature="e#4358#4359#0" expanded="false" />
-            <element signature="e#4396#4397#0" expanded="false" />
-            <element signature="e#4430#4431#0" expanded="false" />
-            <element signature="e#4484#4485#0" expanded="false" />
-            <element signature="e#4530#4531#0" expanded="false" />
-            <element signature="e#4570#4571#0" expanded="false" />
-            <element signature="e#4606#4607#0" expanded="false" />
-            <element signature="e#4664#4665#0" expanded="false" />
-            <element signature="e#4714#4715#0" expanded="false" />
-            <element signature="e#4752#4753#0" expanded="false" />
-            <element signature="e#4786#4787#0" expanded="false" />
-            <element signature="e#4840#4841#0" expanded="false" />
-            <element signature="e#4886#4887#0" expanded="false" />
-            <element signature="e#4923#4924#0" expanded="false" />
-            <element signature="e#4959#4960#0" expanded="false" />
-            <element signature="e#5014#5015#0" expanded="false" />
-            <element signature="e#5064#5065#0" expanded="false" />
-            <element signature="e#5105#5106#0" expanded="false" />
-            <element signature="e#5145#5146#0" expanded="false" />
-            <element signature="e#5304#5305#0" expanded="false" />
-            <element signature="e#5339#5340#0" expanded="false" />
-            <element signature="e#5392#5393#0" expanded="false" />
-            <element signature="e#5433#5434#0" expanded="false" />
+            <element signature="e#4231#4232#0" expanded="true" />
+            <element signature="e#4268#4269#0" expanded="true" />
+            <element signature="e#4328#4329#0" expanded="true" />
+            <element signature="e#4380#4381#0" expanded="true" />
+            <element signature="e#4418#4419#0" expanded="true" />
+            <element signature="e#4452#4453#0" expanded="true" />
+            <element signature="e#4506#4507#0" expanded="true" />
+            <element signature="e#4552#4553#0" expanded="true" />
+            <element signature="e#4592#4593#0" expanded="true" />
+            <element signature="e#4628#4629#0" expanded="true" />
+            <element signature="e#4686#4687#0" expanded="true" />
+            <element signature="e#4736#4737#0" expanded="true" />
+            <element signature="e#4774#4775#0" expanded="true" />
+            <element signature="e#4808#4809#0" expanded="true" />
+            <element signature="e#4862#4863#0" expanded="true" />
+            <element signature="e#4908#4909#0" expanded="true" />
+            <element signature="e#4945#4946#0" expanded="true" />
+            <element signature="e#4981#4982#0" expanded="true" />
+            <element signature="e#5036#5037#0" expanded="true" />
+            <element signature="e#5086#5087#0" expanded="true" />
+            <element signature="e#5127#5128#0" expanded="true" />
+            <element signature="e#5167#5168#0" expanded="true" />
+            <element signature="e#5326#5327#0" expanded="true" />
+            <element signature="e#5361#5362#0" expanded="true" />
+            <element signature="e#5414#5415#0" expanded="true" />
+            <element signature="e#5455#5456#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/customer_sync_adapter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/authenticator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/base_preference.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/base-strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="83" column="47" lean-forward="false" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_customer_detail.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_partners.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/base_drawer.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/base_drawer_account_item.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/base_drawer_group_layout.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/base_drawer_menu_item.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/customers/CustomerDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="229" column="42" lean-forward="true" selection-start-line="229" selection-start-column="42" selection-end-line="229" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/core/rpc/wrapper/OdooWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="412" column="0" lean-forward="false" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
+        <state relative-caret-position="265">
+          <caret line="947" column="13" lean-forward="false" selection-start-line="947" selection-start-column="13" selection-end-line="947" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/base/addons/res/ProductTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/services/ProductSyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/providers/ProductsSyncProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/customers/Customers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="29" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/odoo/addons/product/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#3584#3585#0" expanded="true" />
+            <element signature="e#3630#3631#0" expanded="true" />
+            <element signature="e#4230#4231#0" expanded="true" />
+            <element signature="e#4274#4275#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
