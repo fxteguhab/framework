@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Workbench\\AndroidStudioProjects\\odoo_framework\\intro-slider-lib\\build\\intermediates\\res\\merged\\release\\layout\\slider_default_view.xml",
+        "source": "D:\\Workbench\\AndroidStudioProjects\\odoo_framework\\intro-slider-lib\\src\\main\\res\\layout\\slider_default_view.xml"
+    },
+    {
+        "merged": "D:\\Workbench\\AndroidStudioProjects\\odoo_framework\\intro-slider-lib\\build\\intermediates\\res\\merged\\release\\layout\\default_ui.xml",
+        "source": "D:\\Workbench\\AndroidStudioProjects\\odoo_framework\\intro-slider-lib\\src\\main\\res\\layout\\default_ui.xml"
+    }
+]

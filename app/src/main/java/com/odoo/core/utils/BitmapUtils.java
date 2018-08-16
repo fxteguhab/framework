@@ -118,8 +118,13 @@ public class BitmapUtils {
     public static Bitmap getAlphabetImage(Context context, String content) {
         Resources res = context.getResources();
         Bitmap mDefaultBitmap = BitmapFactory.decodeResource(res, android.R.drawable.sym_def_app_icon);
-        int width = mDefaultBitmap.getWidth();
-        int height = mDefaultBitmap.getHeight();
+        int width = 1;
+        int height =1;
+        if (mDefaultBitmap != null)
+        {
+            width = mDefaultBitmap.getWidth();
+            height = mDefaultBitmap.getHeight();
+        }
         TextPaint mPaint = new TextPaint();
         mPaint.setTypeface(OControlHelper.boldFont());
         mPaint.setColor(Color.WHITE);
