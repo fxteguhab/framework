@@ -34,6 +34,6 @@ public class Addons extends AddonsHelper {
      * for maintain sequence call withSequence(int sequence)
      * OAddon partners = new OAddon(Partners.class).withSequence(2);
      */
-    OAddon customers = new OAddon(Customers.class).setDefault();
-    OAddon products = new OAddon(Products.class);
+    OAddon customers = new OAddon(Customers.class);
+    OAddon products = new OAddon(Products.class).setDefault();
 }

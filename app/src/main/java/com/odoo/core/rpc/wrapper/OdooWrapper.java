@@ -410,13 +410,15 @@ public class OdooWrapper<T> implements Response.Listener<JSONObject> {
     public OUser authenticate(String username, String password, String database) {
         OdooSyncResponse response = new OdooSyncResponse();
         authenticate(username, password, database, null, response);
-        OdooResult userResult = response.get().result;
-        if (!(userResult.get("uid") instanceof Boolean)) {
-            userResult.put("username", username);
-            bindOdooSession(userResult);
-            generateUserObject(username, password, database, null, response);
-            if (response.getObject() != null)
-                return (OUser) response.getObject();
+        if (response != null) {
+            OdooResult userResult = response.get().result;
+            if (!(userResult.get("uid") instanceof Boolean)) {
+                userResult.put("username", username);
+                bindOdooSession(userResult);
+                generateUserObject(username, password, database, null, response);
+                if (response.getObject() != null)
+                    return (OUser) response.getObject();
+            }
         }
         return null;
     }
